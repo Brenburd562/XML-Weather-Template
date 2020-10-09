@@ -14,7 +14,7 @@ namespace XMLWeather
     public partial class Form1 : Form
     {
         // TODO: create list to hold day objects
-
+        public static List<Day> days = new List<Day>();
 
         public Form1()
         {
@@ -34,11 +34,19 @@ namespace XMLWeather
 
             while (reader.Read())
             {
-                //TODO: create a day object
+                //create a day object
+                Day d = new Day();
 
-                //TODO: fill day object with required data
+                //fill day object with required data
+                reader.ReadToFollowing("time");
+                d.date = reader.GetAttribute("day");
+
+                reader.ReadToFollowing("temperature");
+                d.tempLow = reader.GetAttribute("min");
+                d.tempHigh = reader.GetAttribute("max");
 
                 //TODO: if day object not null add to the days list
+                days.Add(d);
             }
         }
 
@@ -49,6 +57,8 @@ namespace XMLWeather
 
             //TODO: find the city and current temperature and add to appropriate item in days list
 
+            reader.ReadToFollowing("city");
+            days[0].location = reader.GetAttribute("name");
         }
 
 
