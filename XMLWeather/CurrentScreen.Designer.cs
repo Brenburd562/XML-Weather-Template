@@ -166,7 +166,7 @@
             this.Controls.Add(this.label5);
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.Name = "CurrentScreen";
-            this.Size = new System.Drawing.Size(1000, 700);
+            this.Size = new System.Drawing.Size(1248, 702);
             this.ResumeLayout(false);
             this.PerformLayout();
 
