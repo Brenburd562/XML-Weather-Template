@@ -73,6 +73,16 @@ namespace XMLWeather.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CoolNight___Copy {
+            get {
+                object obj = ResourceManager.GetObject("CoolNight___Copy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap HotDay {
             get {
                 object obj = ResourceManager.GetObject("HotDay", resourceCulture);
@@ -83,9 +93,29 @@ namespace XMLWeather.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap HotDay___Copy {
+            get {
+                object obj = ResourceManager.GetObject("HotDay___Copy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Rain3 {
             get {
                 object obj = ResourceManager.GetObject("Rain3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rainy_Day___Copy {
+            get {
+                object obj = ResourceManager.GetObject("Rainy_Day___Copy", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

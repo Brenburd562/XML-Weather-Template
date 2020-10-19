@@ -121,8 +121,14 @@
   <data name="CoolNight" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CoolNight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="CoolNight___Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CoolNight - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="HotDay" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HotDay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HotDay___Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HotDay - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Rain3" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -3477,5 +3483,8 @@
   </data>
   <data name="RainyDay" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rainy Day.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rainy_Day___Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rainy Day - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
